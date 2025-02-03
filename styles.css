@@ -43,11 +43,6 @@
 .carousel-caption h1 {
     font-size: 60px;
     font-weight: bold;
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* border-right: 3px solid black; */
-    /* width: 100%; */
-    /* animation: typing 1s steps(20, end), blink 0.5s step-end infinite; */
 }
 
 @keyframes fadeIn {
@@ -60,4 +55,22 @@
         opacity: 1;
         scale: 1;
     }
+}
+
+section {
+    padding: 0 0 100px 0;
+}
+
+.icon-description-container {
+    box-shadow: rgba(0, 0, 0, 0.45) 3px 3px 5px;
+    margin: 20px;
+    border-radius: 20px;
+    /* padding: 5px; */
+}
+
+.icon-description-container h5.card-title {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 500;
+    margin-top: -35px;
 }
