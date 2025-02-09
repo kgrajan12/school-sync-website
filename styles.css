@@ -58,19 +58,29 @@
 }
 
 section {
-    padding: 0 0 100px 0;
+    padding: 0 0 70px 0;
 }
+
+/* .icon-description-container img {
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+} */
 
 .icon-description-container {
     box-shadow: rgba(0, 0, 0, 0.45) 3px 3px 5px;
     margin: 20px;
     border-radius: 20px;
-    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-description-container h5.card-title {
     text-align: center;
-    padding-bottom: 30px;
     font-weight: 500;
-    margin-top: -35px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
 }
